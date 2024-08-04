@@ -15,4 +15,11 @@ class TestFixtures(unittest.TestCase):
         name=self.shortDescription()
         print('\n',name)
         
+    def tearDown(self):
+        print('\nend of test',self.shortDescription())
+        
+    def test1(self):
+        """One"""
+        pass
+        
 
