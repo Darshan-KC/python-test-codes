@@ -20,6 +20,15 @@ class TestFixtures(unittest.TestCase):
         
     def test1(self):
         """One"""
-        pass
+        result = self.a + self.b 
+        self.assertTrue(True)
+        
+    def test2(self):
+        """Two"""
+        result = self.a - self.b
+        self.assertTrue(False)
+
+if __name__ == "__main__":
+    unittest.main()
         
 
