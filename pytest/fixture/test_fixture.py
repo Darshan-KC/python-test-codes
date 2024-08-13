@@ -1,5 +1,9 @@
 import pytest
 
+""" 
+@pytest.fixture is a decorator in Pytest that is used to create and manage fixtures. Fixtures are functions that provide a fixed baseline or setup that can be used in your tests. They are typically used to create resources that your tests need, such as initializing objects, setting up databases, preparing test data, or configuring environments.
+"""
+
 @pytest.fixture
 def sample_data():
     data = [1,2,3,4,5]
