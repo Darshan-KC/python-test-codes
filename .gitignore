@@ -1,0 +1,5 @@
+.pytest_cache
+pytest/class_test/__pycache__
+pytest/class_test_2/__pycache__
+pytest/first/__pycache__
+pytest/fixture/__pycache__
